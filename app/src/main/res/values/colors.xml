@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <!-- Primary-->
+    <color name="Primary5">#FFECE5</color>
+    <color name="Primary10">#FBDBD0</color>
+    <color name="Primary20">#FAC8B6</color>
+    <color name="Primary30">#F8B59D</color>
+    <color name="Primary40">#F6A183</color>
+    <color name="Primary50">#F48E6A</color>
+    <color name="Primary60">#F27B50</color>
+    <color name="Primary100">#F11A7B</color>
+    <color name="primaryPink20">#FAADFB</color>
+    <color name="primaryPink50C">#F349F6</color>
+    <color name="primaryBlue10">#D3E6F8</color>
+    <color name="primaryBlue50C">#358DDF</color>
+    <color name="pinkInGradient">#F04AF6</color>
+    <color name="blueInGradient">#358DDF</color>
+    <color name="primaryPurple1">#AB60F5</color>
+    <color name="primaryTeal60">#0084FF</color>
+    <color name="primaryTeal50">#36C79C</color>
+    <color name="primaryTeal40">#65D5B3</color>
+    <color name="primaryTeal30">#94E1CA</color>
+    <color name="primaryTeal20">#B8DDFF</color>
+    <color name="primaryTeal10">#E6F3FF</color>
+    <color name="primaryYellow90">#FF8F6B</color>
+    <color name="primaryYellow80">#FF9C7D</color>
+    <color name="primaryYellow70">#FFA98E</color>
+    <color name="primaryYellow60">#FFB7A1</color>
+    <color name="primaryYellow50">#FFC4B2</color>
+    <color name="primaryYellow40">#FFD3C4</color>
+    <color name="primaryYellow30">#FFE0D6</color>
+    <color name="primaryYellow20">#FFEEE8</color>
+    <color name="primaryYellow10">#FFFAF9</color>
+    <!-- neutral-->
+    <color name="neutralAds">#F9F9FA</color>
+    <color name="neutral10">#F0F0F5</color>
+    <color name="neutral20">#D5D5E3</color>
+    <color name="neutral30">#BABAD1</color>
+    <color name="neutral40">#A1A0C0</color>
+    <color name="neutral50">#7F7EAA</color>
+    <color name="neutral60">#69679C</color>
+    <color name="neutral70">#403F74</color>
+    <color name="neutral80">#22215C</color>
+    <color name="neutral90">#0F0D4A</color>
+    <color name="neutral100">#010039</color>
+
+    <!-- gray-->
+    <color name="gray1">#F4F4F6</color>
+    <color name="gray2">#F0F0F3</color>
+    <color name="bgGrey2">#F1F1F2</color>
+
+    <!-- secondary-->
+    <color name="secondaryInforC">#2488FF</color>
+    <color name="secondaryInforP">#E8F8FF</color>
+    <color name="secondaryDangerC">#FF1B1B</color>
+    <color name="secondaryDangerP">#FFEEEC</color>
+    <color name="secondarySuccessC">#06C00E</color>
+    <color name="secondarySuccessP">#E2FCE3</color>
+    <color name="secondaryWarningC">#FFC700</color>
+    <color name="secondaryWarningP">#FFF8E0</color>
+
+    <!-- dark-->
+    <color name="dark3">#252E39</color>
+    <color name="dark4">#2C3745</color>
+    <color name="dark1">#10151B</color>
+    <color name="dark2">#1C232C</color>
+    <color name="dark5">#374454</color>
+
+    <color name="navi1">#141726</color>
+    <!-- navi Color-->
+    <color name="naviColor">#141726</color>
+    <color name="naviColor1">#212538</color>
+    <color name="naviColor2">#34384B</color>
+    <color name="naviColor4">#B9B9BF</color>
+    <color name="primary100">#F11A7B</color>
+    <color name="navy_1">#141526</color>
+    <color name="navy_2">#26273B</color>
+    <color name="navy_3">#3B3C51</color>
+    <color name="navy_4">#5E5F77</color>
+    <color name="navy_5">#8384A0</color>
+    <color name="navy_8">#F2F3FA</color>
+    <color name="turquoise">#7BF6FF</color>
+
+    <!-- data visual-->
+    <color name="purple1">#7D51FF</color>
+    <color name="violet1">#BC58FD</color>
+    <color name="pink1">#FF53A4</color>
+    <color name="red1">#FF6068</color>
+    <color name="orange1">#FF6739</color>
+    <color name="yellow1">#FFAE00</color>
+    <color name="green1">#3AC757</color>
+    <color name="teal1">#05BF92</color>
+    <color name="blue1">#3D98FB</color>
+</resources>
