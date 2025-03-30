@@ -133,3 +133,8 @@ dependencies {
     ksp(libs.glide.ksp)
     implementation(libs.lottie)
 }
+tasks.register<GradleBuild>("distributionDev") {
+    println("Task Distribution for Dev env")
+    dependsOn("clean")
+    tasks = listOf("assembleDebug", "appDistributionUploadDevDebug")
+}
