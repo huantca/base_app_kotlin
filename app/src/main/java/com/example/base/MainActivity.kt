@@ -37,7 +37,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
     override fun setupListener() {
         binding.apply {
-            btnInsert.setOnClickListener {
+            btnInsert.setOnClickListener {{
                 viewModel.insert(MySample(null,"huanhundd2255", 24))
             }
         }
