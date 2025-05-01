@@ -4,8 +4,8 @@ pipeline{
 	   DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1367422757712822285/n_Tu4iYef4cD0SQlFYvoHMwPcCHK0Ef7XEpmXUkRYmG0uDliJUxyFWzYPLGm_DSlU2fN"
       BRANCH_MASTER = 'main'
   }
-	stages {
- stage('Build') {
+stages {
+ 	stage('Build') {
             when {
                 branch BRANCH_MASTER
             }
@@ -19,5 +19,13 @@ pipeline{
                 '''
             }
         }
+	stage('Deploy Artifact') {
+            when {
+                branch BRANCH_MASTER
+            }
+
+    		steps {
+                	archiveArtifacts '**/*.apk'
+    		}
 	}
 }
