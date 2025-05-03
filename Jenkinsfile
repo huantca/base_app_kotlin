@@ -20,7 +20,7 @@ stages {
           
     		steps {
                 	bat"""
-		 cp -r app/build/outputs/apk
+		 copy  -r app/build/outputs/apk
 		 """
     		}
 	}
