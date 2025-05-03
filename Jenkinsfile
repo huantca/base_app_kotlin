@@ -6,13 +6,10 @@ pipeline{
   }
 stages {
  	stage('Build') {
-            when {
-                branch BRANCH_MASTER
-            }
-
+            
             steps {
                 sh '''
-                    
+                    chmod +x gradlew
                     ./gradlew clean
                     ./gradlew app:assembleAppDev
                     ./gradlew app:bundleRelease
@@ -20,10 +17,7 @@ stages {
             }
         }
 	stage('Deploy Artifact') {
-            when {
-                branch BRANCH_MASTER
-            }
-
+          
     		steps {
                 	archiveArtifacts '**/*.apk'
     		}
