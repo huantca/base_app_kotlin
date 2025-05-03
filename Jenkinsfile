@@ -9,7 +9,7 @@ stages {
             
             steps {
                 sh '''
-                    chmod +x gradlew
+                    
                     ./gradlew clean
                     ./gradlew app:assembleAppDev
                     ./gradlew app:bundleRelease
