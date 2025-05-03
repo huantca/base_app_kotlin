@@ -20,9 +20,10 @@ stages {
           
     		steps {
                 	bat"""
-		 copy  -r app/build/outputs/apk
+		 copy  -r app/build/outputs/apk/debug/app-debug
 		 """
     		}
 	}
+	
 }
 }
