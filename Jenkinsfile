@@ -19,6 +19,16 @@ stages {
             archiveArtifacts '**/*.apk'
         }
     }
+	stage('Discord Notification') {
+
+            steps {
+                discordSend(
+                    description: "",
+                    unstable: true,
+                    webhookURL: env.DISCORD_WEBHOOK_URL
+                )
+	        }
+        }
 	
 }
 }
