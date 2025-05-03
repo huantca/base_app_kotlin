@@ -16,14 +16,11 @@ stages {
                 '''
             }
         }
-	stage('Deploy Artifact') {
-          
-    		steps {
-                	bat"""
-		 copy  -r app/build/outputs/apk/debug/app-debug
-		 """
-    		}
-	}
+	stage('Archive') {
+        steps {
+            archiveArtifacts '**/*.apk'
+        }
+    }
 	
 }
 }
