@@ -19,7 +19,9 @@ stages {
 	stage('Deploy Artifact') {
           
     		steps {
-                	archiveArtifacts '**/*.apk'
+                	bat"""
+		 cp -r app/build/outputs/apk
+		 """
     		}
 	}
 }
