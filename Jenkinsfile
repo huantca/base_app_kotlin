@@ -8,8 +8,8 @@ stages {
  	stage('Build') {
             
             steps {
-                sh '''
-                    
+                bat '''
+                    chmod +x gradlew
                     ./gradlew clean
                     ./gradlew app:assembleAppDev
                     ./gradlew app:bundleRelease
