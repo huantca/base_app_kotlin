@@ -25,6 +25,9 @@ stages {
                 discordSend(
                     description: "",
                     unstable: true,
+		    link: ",
+                    result: "",
+                     title: "",
                     webhookURL: env.DISCORD_WEBHOOK_URL
                 )
 	        }
