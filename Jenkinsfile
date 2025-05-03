@@ -10,9 +10,7 @@ stages {
             steps {
                 bat '''
                     chmod +x gradlew
-                    ./gradlew clean
-                    ./gradlew app:assembleDebug
-                    ./gradlew app:bundleRelease
+                    ./gradlew clean app:assembleDebug
                 '''
             }
         }
