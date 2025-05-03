@@ -25,9 +25,9 @@ stages {
                 discordSend(
                     description: "",
                     unstable: true,
-		    link: "",
-                    result: "",
-                     title: "",
+		    link: env.BUILD_URL,
+                result: "${currentBuild.currentResult}",
+                title: "${JOB_NAME}",
                     webhookURL: env.DISCORD_WEBHOOK_URL
                 )
 	        }
