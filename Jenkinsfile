@@ -11,14 +11,14 @@ stages {
                 bat '''
                     chmod +x gradlew
                     ./gradlew clean
-                    ./gradlew app:assembleAppDev
+                    ./gradlew app:assembleDebug
                     ./gradlew app:bundleRelease
                 '''
             }
         }
 	stage('Archive') {
         steps {
-            archiveArtifacts 'app/build/outputs/apk/debug/app-debug.apk'
+            archiveArtifacts '**/*.apk'
         }
     }
 	
