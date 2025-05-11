@@ -5,6 +5,11 @@ pipeline{
       BRANCH_MASTER = 'master'
   }
 stages {
+	stage('Configure Release IDs') {
+            steps {
+                bat './configure_release_ids.bat'
+            }
+        }
  	stage('Build') {
             
             steps {
