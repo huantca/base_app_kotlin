@@ -7,7 +7,7 @@ pipeline{
 stages {
 	stage('Configure Release IDs') {
             steps {
-                bat './configure_release_ids.bat'
+                bat './configAds.bat'
             }
         }
  	stage('Build') {
